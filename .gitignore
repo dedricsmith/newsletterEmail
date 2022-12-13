@@ -1,0 +1,13 @@
+.DS_Store
+node_modules
+npm-debug.log
+bower_components
+dist
+.sass-cache
+.awspublish*
+config.json
+helpers
+LICENSE
+/assets/img
+/assets/archive
+README.md

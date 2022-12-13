@@ -1,0 +1,138 @@
+---
+layout: newsletter
+subject: Credit Union Newsletter
+---
+
+<container>
+	<row class="education-section">
+		<columns>
+    <div class="container" style="padding: 20px 20px 20px 20px;">
+			<row class="education-title">
+				<columns>
+					<h4 class="title-style">Upcoming Educational Seminars<h4>
+				</columns>
+			</row>
+        <row class="education-dates">
+          <columns>
+              <row>
+                <columns>
+                  <span>
+                    <strong>December 14:</strong>
+                  <a href="#"> Principles of Preserving Wealth</a> >
+                  </span> 
+                </columns>
+              </row>
+              <row>
+                <columns>
+                  <span>
+                    <strong>January 18:</strong>
+                    <a href="#"> Financial Planning Strategies</a> >
+                  </span> 
+                </columns>
+              </row>
+              <row>
+                <columns>
+                  <span>
+                    <strong>February 22:</strong>
+                    <a href="#"> Keys to Investing for Retirement </a> >
+                  </span> 
+                </columns>
+              </row>
+          </columns>
+          </row>
+      </div>
+			<row class="fraud-img"> 
+        <columns small="12" large="12">
+          <img src="https://i.imgur.com/D77nrJW.jpeg" alt="">
+        </columns>
+      </row>
+      <div class="container" style="padding: 15px 20px 5px 20px;">
+			<row class="fraud-section"> 
+        <columns>
+          <row class="fraud-title">
+            <columns>
+              <h4 class="title-style">Online Shopping Season Brings Out the Holiday Fraud</h4>
+            </columns> 
+          </row>
+          <row class="fraud-info"> 
+            <columns>
+              <p class="text-style">
+                The holiday online shopping season is upon us and cyber creeps are out there waiting to take advantage of all of us. Online scams are becoming harder to detect, so here are some tips on how to remain vigilant. 
+                <a href="#">Read the article</a> <span>></span>
+              </p>
+            </columns> 
+          </row>
+        </columns>
+      </row>
+      <row ><columns style="max-width: 600px; min-width: 300px; border-bottom: 1px solid #004976; margin: 0; padding: 0 0 0 0;"></columns></row>
+    </div>
+
+
+		</columns>
+	</row>
+</container>
+
+<container>
+  <row class="article-section">
+    <columns>
+      <row>
+        <columns>
+          {{#each holidayData.info}}
+          <row class="article-content">
+            <columns small="12"large="5">
+              <a href="#">
+                <img src="{{this.image}}" alt="">
+              </a>
+            </columns>
+            <columns small="12"large="7">
+              <row class="article-info">
+                <columns>
+                  
+                  <h4 class="title-style">{{this.title}}</h4>
+                
+                  <p class="text-style">{{this.description}} <br>
+                   <a href="#">{{this.link}}</a><span> ></span>  
+                  </p>
+                </columns>
+              </row>
+            </columns>
+          </row>
+          <row ><columns style="max-width: 600px; min-width: 300px; border-bottom: 1px solid #004976; margin: 0; padding: 0 0 0 0;"></columns></row>
+          {{/each}}
+        </columns>
+      </row>
+    </columns>
+  </row>
+</container>
+
+<container>
+  <row class="toys-section">
+    <columns>
+      <row class="toys-img" >
+        <columns small="12" large="12">
+          <img src="https://i.imgur.com/LFGXqKs.jpeg" alt="">
+        </columns>
+      </row>
+    <div class="container" style="padding: 10px 20px 10px 20px;">
+      <row>
+        <columns>
+          <row class="toys-title">
+            <columns>
+              <h4 class="title-style">Toys for Tots Drive</h4> 
+            </columns>
+          </row>
+          <row class="toys-content">
+            <columns>
+              <p class="text-style">As a reminder, we are still collecting donations for Toys for Tots until <strong>Wednesday, December 14th.</strong> You may bring new, unwrapped toys to any of our branches. With your help, we can make the holidays a little brighter for underserved children in our area after a year that was especially difficult for many families.</p>
+            </columns>
+          </row>
+        </columns>
+      </row>
+      <row ><columns style="max-width: 600px; min-width: 300px; border-bottom: 1px solid #004976; margin: 0; padding: 0 0 0 0;"></columns></row>
+    </div>
+
+
+    </columns>
+  </row>
+</container>
+

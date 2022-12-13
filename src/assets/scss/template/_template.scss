@@ -1,0 +1,288 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles
+body,
+html,
+.body {
+	background: $light-gray !important;
+	background-color: $light-gray !important;
+}
+
+.header {
+	background: $medium-gray;
+	background-color: $medium-gray;
+	text-align: center;
+
+	.columns {
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+		th {
+			text-align: center;
+		}
+
+		span {
+			font-size: 11px;
+			color: $dark-gray;
+		}
+	}
+}
+
+.header-img {
+	.columns {
+		padding-top: 0;
+		padding-bottom: 10px;
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+
+		th {
+			padding-right: 0 !important;
+			padding-left: 0 !important;
+		}
+	}
+}
+
+.header-info {
+	.columns {
+		padding: 0 0 20px 0;
+	}
+	p {
+		padding-bottom: 20px;
+
+		&:last-child {
+			padding-bottom: 0px;
+		}
+	}
+}
+
+.education-section {
+	.columns {
+		padding-bottom: 0px !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	.education-title {
+		.columns {
+			padding-bottom: 15px !important;
+		}
+		h4 {
+			font-size: 16px;
+			color: $primary-blue;
+			font-weight: 600;
+			text-align: center;
+		}
+	}
+
+	.education-dates {
+		.columns {
+			padding-bottom: 13px;
+
+			th {
+				text-align: center;
+			}
+			.columns {
+				padding-bottom: 0;
+			}
+		}
+
+		span {
+			font-size: 14px;
+			color: $secondary-color;
+		}
+		span strong {
+			font-weight: 600;
+			color: $black;
+		}
+		span a {
+			color: $primary-blue;
+			text-decoration: none;
+		}
+	}
+
+	.fraud-img {
+		.columns {
+			padding-right: 0 !important;
+			padding-left: 0 !important;
+		}
+	}
+
+	.fraud-section {
+		.columns {
+			th {
+			}
+		}
+
+		.fraud-title {
+			.columns {
+			}
+
+			h4 {
+				font-size: 16px;
+				color: $primary-blue;
+				font-weight: 600;
+				margin-bottom: 0;
+				padding-bottom: 0;
+			}
+		}
+
+		.fraud-info {
+			.columns {
+				padding-left: 0px !important;
+				padding-right: 0px !important;
+			}
+			p {
+				padding-bottom: 30px;
+			}
+		}
+	}
+}
+
+.article-section {
+	.columns {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.article-content {
+		margin-top: 10px;
+
+		.columns {
+		}
+
+		.article-info {
+			.columns {
+				padding-bottom: 0;
+			}
+		}
+	}
+}
+
+.toys-section {
+	.columns {
+		padding-top: 0;
+		padding-bottom: 10px;
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
+	.toys-img {
+	}
+
+	.toys-title {
+		.columns {
+			padding-bottom: 5px !important;
+		}
+		.toys-content {
+		}
+	}
+}
+
+.footer {
+	.columns {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	.container {
+		padding: 20px 20px 20px 20px;
+
+		.footer-img {
+			.columns {
+				padding-bottom: 10px !important;
+			}
+			img {
+				width: 240px;
+			}
+		}
+	}
+
+	.footer-site-link {
+		.columns {
+			padding-bottom: 25px !important;
+		}
+
+		span {
+			color: $dark-gray;
+			font-size: 14px;
+
+			a {
+				color: $primary-blue;
+				font-weight: 600;
+			}
+		}
+	}
+
+	.footer-social {
+		.columns {
+			padding-bottom: 25px !important;
+
+			.row .columns {
+				padding-bottom: 0px !important;
+			}
+		}
+	}
+
+	.footer-bottom {
+		.columns {
+			padding-bottom: 0px;
+		}
+
+		span {
+			color: $dark-gray;
+			font-size: 12px;
+		}
+
+		a {
+			color: $dark-gray;
+			font-size: 12px;
+			text-decoration: underline;
+			word-wrap: break-word;
+			hyphens: none;
+		}
+
+		.sent-to {
+			padding-bottom: 5px !important;
+		}
+
+		.address {
+			.columns {
+				padding-bottom: 5px !important;
+			}
+		}
+
+		.privacy-email {
+			.columns {
+				padding-left: 0;
+				padding-right: 0;
+				margin: 0 auto;
+			}
+		}
+	}
+}
+
+.text-style {
+	font-size: 14px;
+	line-height: 1.6;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0px;
+	word-wrap: break-word;
+	hyphens: none;
+	a {
+		color: #004976;
+		font-weight: 600;
+		text-decoration: none;
+	}
+	span {
+		color: #aa431e;
+		font-weight: 600;
+	}
+}
+
+.title-style {
+	font-size: 16px;
+	color: #004976;
+	font-weight: 600;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
